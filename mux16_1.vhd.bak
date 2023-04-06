@@ -1,0 +1,32 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+
+entity mux16_1 is
+port ( i_S:			in std_logic;
+		 i_0:			in std_logic_vector (15 downto 0);
+		 i_1:			in std_logic_vector (15 downto 0);
+		 i_2:			in std_logic_vector (15 downto 0);
+		 i_3:			in std_logic_vector (15 downto 0);
+		 i_4:			in std_logic_vector (15 downto 0);
+		 i_5:			in std_logic_vector (15 downto 0);
+		 i_6:			in std_logic_vector (15 downto 0);
+		 i_7:			in std_logic_vector (15 downto 0);
+		 i_8:			in std_logic_vector (15 downto 0);
+		 i_9:			in std_logic_vector (15 downto 0);
+		 i_10:		in std_logic_vector (15 downto 0);
+		 i_11:		in std_logic_vector (15 downto 0);
+		 i_12:		in std_logic_vector (15 downto 0);
+		 i_13:		in std_logic_vector (15 downto 0);
+		 i_14:		in std_logic_vector (15 downto 0);
+		 i_15:		in std_logic_vector (15 downto 0);
+       o_Q: 		out std_logic_vector (15 downto 0));
+end mux16_1;
+
+architecture mux2 of mux16_1 is 
+begin 
+	process()
+      begin 
+    	
+    end process;
+end mux2;

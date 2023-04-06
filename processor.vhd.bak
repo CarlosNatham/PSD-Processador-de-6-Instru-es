@@ -1,0 +1,69 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity processor is
+port(	i_CLK:	in std_logic;
+		i_CLR:	in std_logic);
+end processor;
+
+architecture arch of processor is
+
+component datapath is
+port(	i_CLK:			in std_logic;
+		i_CLR:			in std_logic;
+		i_RF_W_DATA:	in std_logic_vector (7 downto 0);
+		i_RF_S0:			in std_logic;
+		i_RF_S1:			in std_logic;
+		i_RF_W_ADDR:	in std_logic_vector (3 downto 0);
+		i_RF_W_WR:		in std_logic;
+		i_RF_RP_ADDR:	in std_logic_vector (3 downto 0);
+		i_RF_RP_RD:		in std_logic;
+		i_RF_RQ_ADDR:	in std_logic_vector (3 downto 0);
+		i_RF_RQ_RD:		in std_logic;
+		i_R_DATA:		in std_logic_vector (15 downto 0);
+		i_ALU_S0:		in std_logic;
+		i_ALU_S1:		in std_logic;
+		o_W_DATA:		out std_logic_vector (15 downto 0);
+		o_RF_RP_ZERO:	out std_logic);
+end component;
+
+component control_unit is
+port(	i_DATA:			in std_logic_vector (15 downto 0);
+		i_RF_RP_ZERO:	in std_logic;
+		i_CLK:			in std_logic;
+		i_CLR:			in std_logic;
+		o_D_ADDR: 		out std_logic_vector (7 downto 0);
+		o_D_RD:			out std_logic;
+		o_D_WR:			out std_logic;
+		o_RF_W_DATA:	out std_logic_vector (7 downto 0);
+		o_RF_S0:			out std_logic;
+		o_RF_S1:			out std_logic;
+		o_RF_W_ADDR:	out std_logic_vector (3 downto 0);
+		o_RF_W_WR:		out std_logic;
+		o_RF_RP_ADDR:	out std_logic_vector (3 downto 0);
+		o_RF_RP_RD:		out std_logic;
+		o_RF_RQ_ADDR:	out std_logic_vector (3 downto 0);
+		o_RF_RQ_RD:		out std_logic;
+		o_ALU_S0:		out std_logic;
+		o_ALU_S1:		out std_logic;
+		o_RD:				out std_logic;
+		o_ADDR:			out std_logic_vector (15 downto 0));
+end component;
+
+component single_port_ram is
+port(	i_CLK: 		in std_logic;
+		i_ADDR: 		in natural range 0 to 2**ADDR_WIDTH - 1;
+		i_W_DATA: 	in std_logic_vector((DATA_WIDTH-1) downto 0);
+		i_WR: 		in std_logic;
+		i_RD:			in std_logic;
+		o_R_DATA:	out std_logic_vector((DATA_WIDTH -1) downto 0));
+end component;
+
+component single_port_rom is
+port(	i_ADDR: 	in std_logic_vector((DATA_WIDTH -1) downto 0);
+		i_RD:		in std_logic;
+		o_DATA: 	out std_logic_vector((DATA_WIDTH -1) downto 0));
+end component;
+
+begin
+	

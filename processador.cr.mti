@@ -1,0 +1,141 @@
+C:/Workspace/Processador_6_instrucoes/program_counter.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Workspace/Processador_6_instrucoes/program_counter.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity program_counter
+-- Compiling architecture arch_1 of program_counter
+
+} {} {}} C:/Workspace/Processador_6_instrucoes/datapath.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Workspace/Processador_6_instrucoes/datapath.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity datapath
+-- Compiling architecture arch_1 of datapath
+
+} {} {}} C:/Workspace/Processador_6_instrucoes/write_decoder.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Workspace/Processador_6_instrucoes/write_decoder.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity write_decoder
+-- Compiling architecture wd of write_decoder
+
+} {} {}} C:/Workspace/Processador_6_instrucoes/control_unit.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Workspace/Processador_6_instrucoes/control_unit.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity control_unit
+-- Compiling architecture control of control_unit
+
+} {} {}} C:/Workspace/Processador_6_instrucoes/read_decoder.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Workspace/Processador_6_instrucoes/read_decoder.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity read_decoder
+-- Compiling architecture rd of read_decoder
+
+} {} {}} C:/Workspace/Processador_6_instrucoes/ALU.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Workspace/Processador_6_instrucoes/ALU.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity alu
+-- Compiling architecture ula of alu
+
+} {} {}} C:/Workspace/Processador_6_instrucoes/rf_16x16.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Workspace/Processador_6_instrucoes/rf_16x16.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity rf_16x16
+-- Compiling architecture rf of rf_16x16
+
+} {} {}} C:/Workspace/Processador_6_instrucoes/mux_3x1.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Workspace/Processador_6_instrucoes/mux_3x1.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity mux3_1
+-- Compiling architecture mux of mux3_1
+
+} {} {}} C:/Workspace/Processador_6_instrucoes/reg.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Workspace/Processador_6_instrucoes/reg.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity reg
+-- Compiling architecture registrador of reg
+
+} {} {}} C:/Workspace/Processador_6_instrucoes/fsm_control.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Workspace/Processador_6_instrucoes/fsm_control.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity fsm_control
+-- Compiling architecture fsm of fsm_control
+
+} {} {}} C:/Workspace/Processador_6_instrucoes/instruction_register.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Workspace/Processador_6_instrucoes/instruction_register.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity instruction_register
+-- Compiling architecture ir of instruction_register
+
+} {} {}} C:/Workspace/Processador_6_instrucoes/testbench.vhd {2 {vcom -work work -2002 -explicit -stats=none C:/Workspace/Processador_6_instrucoes/testbench.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity testbench
+-- Compiling architecture tb of testbench
+** Warning: C:/Workspace/Processador_6_instrucoes/testbench.vhd(19): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+
+} {} {}} C:/Workspace/Processador_6_instrucoes/adder.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Workspace/Processador_6_instrucoes/adder.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity adder
+-- Compiling architecture soma of adder
+
+} {} {}} C:/Workspace/Processador_6_instrucoes/comparator.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Workspace/Processador_6_instrucoes/comparator.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity comparator
+-- Compiling architecture comp of comparator
+
+} {} {}} C:/Workspace/Processador_6_instrucoes/processor.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Workspace/Processador_6_instrucoes/processor.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity processor
+-- Compiling architecture arch of processor
+
+} {} {}} C:/Workspace/Processador_6_instrucoes/mux16_1.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Workspace/Processador_6_instrucoes/mux16_1.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity mux16_1
+-- Compiling architecture mux2 of mux16_1
+
+} {} {}}

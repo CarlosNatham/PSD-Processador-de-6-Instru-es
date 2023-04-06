@@ -1,0 +1,797 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/workspace/Processador_6_instrucoes
+Eadder
+Z1 w1607893396
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 36
+Z6 dC:/Workspace/Processador_6_instrucoes
+Z7 8C:/Workspace/Processador_6_instrucoes/adder.vhd
+Z8 FC:/Workspace/Processador_6_instrucoes/adder.vhd
+l0
+L5 1
+VMCR:<;:=K6UVUU@V7X`1]2
+!s100 ]o?V>hDi:Qk6BZ>UbAUdP0
+Z9 OV;C;2020.1;71
+32
+Z10 !s110 1608033084
+!i10b 1
+Z11 !s108 1608033083.000000
+Z12 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Workspace/Processador_6_instrucoes/adder.vhd|
+Z13 !s107 C:/Workspace/Processador_6_instrucoes/adder.vhd|
+!i113 1
+Z14 o-work work -2002 -explicit
+Z15 tExplicit 1 CvgOpt 0
+Asoma
+R2
+R3
+R4
+R5
+DEx4 work 5 adder 0 22 MCR:<;:=K6UVUU@V7X`1]2
+!i122 36
+l13
+L11 8
+Vzih_il4Wj1NzV2=jC[>l]1
+!s100 9Bhf76?1A]XFl:oL7WS<[0
+R9
+32
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 1
+R14
+R15
+Ealu
+Z16 w1607994839
+R2
+R3
+R4
+R5
+!i122 37
+R6
+Z17 8C:/Workspace/Processador_6_instrucoes/ALU.vhd
+Z18 FC:/Workspace/Processador_6_instrucoes/ALU.vhd
+l0
+L5 1
+Vi9>M>bT87>E0XHKjP2dRG2
+!s100 `^LaV:Po_A8fYdP:XGD>>2
+R9
+32
+R10
+!i10b 1
+Z19 !s108 1608033084.000000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Workspace/Processador_6_instrucoes/ALU.vhd|
+Z21 !s107 C:/Workspace/Processador_6_instrucoes/ALU.vhd|
+!i113 1
+R14
+R15
+Aula
+R2
+R3
+R4
+R5
+DEx4 work 3 alu 0 22 i9>M>bT87>E0XHKjP2dRG2
+!i122 37
+l17
+L13 18
+Vbh0EZhm555hl6oX2VnBAO0
+!s100 2>UIVD;BORC;W6JNBRIZl1
+R9
+32
+R10
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R14
+R15
+Ecomparator
+Z22 w1607825961
+R4
+R5
+!i122 38
+R6
+Z23 8C:/Workspace/Processador_6_instrucoes/comparator.vhd
+Z24 FC:/Workspace/Processador_6_instrucoes/comparator.vhd
+l0
+L4 1
+VcgO27e^V_l`2ml`7iJ4do1
+!s100 :dP@LV8JePfT``=Qo7kKS3
+R9
+32
+R10
+!i10b 1
+R19
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Workspace/Processador_6_instrucoes/comparator.vhd|
+Z26 !s107 C:/Workspace/Processador_6_instrucoes/comparator.vhd|
+!i113 1
+R14
+R15
+Acomp
+R4
+R5
+DEx4 work 10 comparator 0 22 cgO27e^V_l`2ml`7iJ4do1
+!i122 38
+l11
+L9 12
+V^<iinU@XiNTU`<AFgAHW_2
+!s100 CAUYP;V2Tm=LAkc99;=kF2
+R9
+32
+R10
+!i10b 1
+R19
+R25
+R26
+!i113 1
+R14
+R15
+Econtrol_unit
+Z27 w1607978090
+R4
+R5
+!i122 39
+R6
+Z28 8C:/Workspace/Processador_6_instrucoes/control_unit.vhd
+Z29 FC:/Workspace/Processador_6_instrucoes/control_unit.vhd
+l0
+L4 1
+V5SCnH@=49JO1<T8m=nkMB2
+!s100 2W1@jh9CQGfSm:laPU>l31
+R9
+32
+R10
+!i10b 1
+R19
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Workspace/Processador_6_instrucoes/control_unit.vhd|
+Z31 !s107 C:/Workspace/Processador_6_instrucoes/control_unit.vhd|
+!i113 1
+R14
+R15
+Acontrol
+R4
+R5
+DEx4 work 12 control_unit 0 22 5SCnH@=49JO1<T8m=nkMB2
+!i122 39
+l82
+L27 102
+V[[do8M8no78h18A6PVOeJ1
+!s100 o2NHYUiE1;CES^Fdm_43K2
+R9
+32
+R10
+!i10b 1
+R19
+R30
+R31
+!i113 1
+R14
+R15
+Edatapath
+Z32 w1607884776
+R4
+R5
+!i122 41
+R6
+Z33 8C:/Workspace/Processador_6_instrucoes/datapath.vhd
+Z34 FC:/Workspace/Processador_6_instrucoes/datapath.vhd
+l0
+L4 1
+VC;j6a[:ZBA3K9XLJ_h`hU2
+!s100 I1?I3^Vi76Y?Q5K9H[PoZ1
+R9
+32
+R10
+!i10b 1
+R19
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Workspace/Processador_6_instrucoes/datapath.vhd|
+Z36 !s107 C:/Workspace/Processador_6_instrucoes/datapath.vhd|
+!i113 1
+R14
+R15
+Aarch_1
+R4
+R5
+DEx4 work 8 datapath 0 22 C;j6a[:ZBA3K9XLJ_h`hU2
+!i122 41
+l63
+L23 74
+VTA4=2:V:8f[7J8T1:nQR^0
+!s100 oB@_]]Z[mTJjEPd;8Q=gG0
+R9
+32
+R10
+!i10b 1
+R19
+R35
+R36
+!i113 1
+R14
+R15
+Efsm_control
+Z37 w1607977601
+R4
+R5
+!i122 42
+R6
+Z38 8C:/Workspace/Processador_6_instrucoes/fsm_control.vhd
+Z39 FC:/Workspace/Processador_6_instrucoes/fsm_control.vhd
+l0
+L4 1
+VhFOcWQfFZDhlh<e1DioJZ3
+!s100 >QB<HO_iLgRI@KeD1Mb3I3
+R9
+32
+Z40 !s110 1608033085
+!i10b 1
+Z41 !s108 1608033085.000000
+Z42 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Workspace/Processador_6_instrucoes/fsm_control.vhd|
+Z43 !s107 C:/Workspace/Processador_6_instrucoes/fsm_control.vhd|
+!i113 1
+R14
+R15
+Afsm
+R4
+R5
+DEx4 work 11 fsm_control 0 22 hFOcWQfFZDhlh<e1DioJZ3
+!i122 42
+l36
+L30 99
+V5P2>;IGciQk1dlF5^iAWD3
+!s100 V]1Z?9c^KH7O:h@FM3ZN^0
+R9
+32
+R40
+!i10b 1
+R41
+R42
+R43
+!i113 1
+R14
+R15
+Einstruction_register
+Z44 w1607889313
+R4
+R5
+!i122 44
+R6
+Z45 8C:/Workspace/Processador_6_instrucoes/instruction_register.vhd
+Z46 FC:/Workspace/Processador_6_instrucoes/instruction_register.vhd
+l0
+L4 1
+VbG_O90gCT>jOg1;B_UFBU1
+!s100 OWIH0o?VFZEMnSRaD:Fdo1
+R9
+32
+R40
+!i10b 1
+R41
+Z47 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Workspace/Processador_6_instrucoes/instruction_register.vhd|
+Z48 !s107 C:/Workspace/Processador_6_instrucoes/instruction_register.vhd|
+!i113 1
+R14
+R15
+Air
+R4
+R5
+DEx4 work 20 instruction_register 0 22 bG_O90gCT>jOg1;B_UFBU1
+!i122 44
+l13
+Z49 L12 13
+VjTknJFKC5]gKdA<A[<gme1
+!s100 kDBmg2Kn:k:VSeQN<<lE40
+R9
+32
+R40
+!i10b 1
+R41
+R47
+R48
+!i113 1
+R14
+R15
+Emux16_1
+Z50 w1607882714
+R2
+R3
+R4
+R5
+!i122 46
+R6
+Z51 8C:/Workspace/Processador_6_instrucoes/mux16_1.vhd
+Z52 FC:/Workspace/Processador_6_instrucoes/mux16_1.vhd
+l0
+L5 1
+VXIZXVAZgj5bH3_IfXZboQ1
+!s100 Sid@>OX:Z2_`6Oaf5;?F33
+R9
+32
+R40
+!i10b 1
+R41
+Z53 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Workspace/Processador_6_instrucoes/mux16_1.vhd|
+Z54 !s107 C:/Workspace/Processador_6_instrucoes/mux16_1.vhd|
+!i113 1
+R14
+R15
+Amux2
+R2
+R3
+R4
+R5
+DEx4 work 7 mux16_1 0 22 XIZXVAZgj5bH3_IfXZboQ1
+!i122 46
+l27
+L26 39
+V2@Q]A?5IXb:zZHVZ8a6>I2
+!s100 AS?=KDO[F6eQ:6:I=F^WF3
+R9
+32
+R40
+!i10b 1
+R41
+R53
+R54
+!i113 1
+R14
+R15
+Emux3_1
+Z55 w1607827320
+R2
+R3
+R4
+R5
+!i122 45
+R6
+Z56 8C:/Workspace/Processador_6_instrucoes/mux_3x1.vhd
+Z57 FC:/Workspace/Processador_6_instrucoes/mux_3x1.vhd
+l0
+L5 1
+VYeISjnP?4BVA[lG22O:^A1
+!s100 9zd<3loN4F^^mMSH]c6[_3
+R9
+32
+R40
+!i10b 1
+R41
+Z58 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Workspace/Processador_6_instrucoes/mux_3x1.vhd|
+Z59 !s107 C:/Workspace/Processador_6_instrucoes/mux_3x1.vhd|
+!i113 1
+R14
+R15
+Amux
+R2
+R3
+R4
+R5
+DEx4 work 6 mux3_1 0 22 YeISjnP?4BVA[lG22O:^A1
+!i122 45
+l15
+L14 15
+VPM_Ak5]fj3z>5Rl]<=3;d0
+!s100 I^zn@4_oU>WM[]fmkGCbZ3
+R9
+32
+R40
+!i10b 1
+R41
+R58
+R59
+!i113 1
+R14
+R15
+Eprocessor
+Z60 w1607998737
+R2
+R4
+R5
+!i122 47
+R6
+Z61 8C:/Workspace/Processador_6_instrucoes/processor.vhd
+Z62 FC:/Workspace/Processador_6_instrucoes/processor.vhd
+l0
+L5 1
+Vn;dHeWfUb3P:R1cgUNo:H1
+!s100 CcN_=`me>dQoSGYlEN2KQ1
+R9
+32
+Z63 !s110 1608033086
+!i10b 1
+R41
+Z64 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Workspace/Processador_6_instrucoes/processor.vhd|
+Z65 !s107 C:/Workspace/Processador_6_instrucoes/processor.vhd|
+!i113 1
+R14
+R15
+Aarch
+R2
+R4
+R5
+DEx4 work 9 processor 0 22 n;dHeWfUb3P:R1cgUNo:H1
+!i122 47
+l78
+L10 121
+VQd0ZaTo<KhoZ_@5:BgcDo2
+!s100 8R0<TYYVb?Z>4F;:z=56Q1
+R9
+32
+R63
+!i10b 1
+R41
+R64
+R65
+!i113 1
+R14
+R15
+Eprogram_counter
+Z66 w1607996179
+R2
+R3
+R4
+R5
+!i122 48
+R6
+Z67 8C:/Workspace/Processador_6_instrucoes/program_counter.vhd
+Z68 FC:/Workspace/Processador_6_instrucoes/program_counter.vhd
+l0
+L5 1
+VbFL82]6FfQ9j3[X[f5EEc2
+!s100 `aJ?WIBlE<P<TczzO`WBm2
+R9
+32
+R63
+!i10b 1
+Z69 !s108 1608033086.000000
+Z70 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Workspace/Processador_6_instrucoes/program_counter.vhd|
+Z71 !s107 C:/Workspace/Processador_6_instrucoes/program_counter.vhd|
+!i113 1
+R14
+R15
+Aarch_1
+R2
+R3
+R4
+R5
+DEx4 work 15 program_counter 0 22 bFL82]6FfQ9j3[X[f5EEc2
+!i122 48
+l19
+Z72 L15 21
+VU`XHO2D@<5oCU3NGlLG913
+!s100 4_cB_mg@@P5o^K021Wjgn3
+R9
+32
+R63
+!i10b 1
+R69
+R70
+R71
+!i113 1
+R14
+R15
+Eread_decoder
+Z73 w1607882907
+R4
+R5
+!i122 49
+R6
+Z74 8C:/Workspace/Processador_6_instrucoes/read_decoder.vhd
+Z75 FC:/Workspace/Processador_6_instrucoes/read_decoder.vhd
+l0
+L4 1
+V>MA?E1T1:0;5Fo5be79j@0
+!s100 QA5zm0RJ0U0gPDe0]hlbT3
+R9
+32
+R63
+!i10b 1
+R69
+Z76 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Workspace/Processador_6_instrucoes/read_decoder.vhd|
+Z77 !s107 C:/Workspace/Processador_6_instrucoes/read_decoder.vhd|
+!i113 1
+R14
+R15
+Ard
+R4
+R5
+DEx4 work 12 read_decoder 0 22 >MA?E1T1:0;5Fo5be79j@0
+!i122 49
+l11
+Z78 L10 43
+V5L`LdhmZj<D8V^n32Yf[90
+!s100 L39FMNzmZ:JYIT92E4JBJ2
+R9
+32
+R63
+!i10b 1
+R69
+R76
+R77
+!i113 1
+R14
+R15
+Ereg
+Z79 w1607884802
+R4
+R5
+!i122 50
+R6
+Z80 8C:/Workspace/Processador_6_instrucoes/reg.vhd
+Z81 FC:/Workspace/Processador_6_instrucoes/reg.vhd
+l0
+L4 1
+V2>k3H5m4L]OYHN1fD2^Uj2
+!s100 aQfbE9Kk1AlX2cSI_DhNV2
+R9
+32
+R63
+!i10b 1
+R69
+Z82 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Workspace/Processador_6_instrucoes/reg.vhd|
+Z83 !s107 C:/Workspace/Processador_6_instrucoes/reg.vhd|
+!i113 1
+R14
+R15
+Aregistrador
+R4
+R5
+DEx4 work 3 reg 0 22 2>k3H5m4L]OYHN1fD2^Uj2
+!i122 50
+l13
+R49
+VU9<oM>]Oza8DLKSL<?[2X0
+!s100 9mg8fbQDNTC=?=G`T>kzz0
+R9
+32
+R63
+!i10b 1
+R69
+R82
+R83
+!i113 1
+R14
+R15
+Erf_16x16
+Z84 w1607884685
+R4
+R5
+!i122 51
+R6
+Z85 8C:/Workspace/Processador_6_instrucoes/rf_16x16.vhd
+Z86 FC:/Workspace/Processador_6_instrucoes/rf_16x16.vhd
+l0
+L4 1
+VlCafgfoEUX2CK^7oMhRIH0
+!s100 iY>RlmLX[TQ[j>oC_8T6C0
+R9
+32
+R63
+!i10b 1
+R69
+Z87 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Workspace/Processador_6_instrucoes/rf_16x16.vhd|
+Z88 !s107 C:/Workspace/Processador_6_instrucoes/rf_16x16.vhd|
+!i113 1
+R14
+R15
+Arf
+R4
+R5
+DEx4 work 8 rf_16x16 0 22 lCafgfoEUX2CK^7oMhRIH0
+!i122 51
+l66
+L18 196
+VPAeY@>0PnA6eS>GgXCkz82
+!s100 TVU?Zc;g=fEFR:^8>9C>J0
+R9
+32
+R63
+!i10b 1
+R69
+R87
+R88
+!i113 1
+R14
+R15
+Esingle_port_ram
+Z89 w1608000325
+Z90 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R4
+R5
+!i122 40
+R6
+Z91 8C:/Workspace/Processador_6_instrucoes/data_memory.vhd
+Z92 FC:/Workspace/Processador_6_instrucoes/data_memory.vhd
+l0
+L5 1
+V;>B@IWYYX[cQRV_5R;WjZ0
+!s100 W>8e2O;S3MCY`UHfm;8N60
+R9
+32
+R10
+!i10b 1
+R19
+Z93 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Workspace/Processador_6_instrucoes/data_memory.vhd|
+Z94 !s107 C:/Workspace/Processador_6_instrucoes/data_memory.vhd|
+!i113 1
+R14
+R15
+Aram
+R90
+R4
+R5
+DEx4 work 15 single_port_ram 0 22 ;>B@IWYYX[cQRV_5R;WjZ0
+!i122 40
+l20
+Z95 L14 24
+Vdlg^Hm4:C`UTdRY;RA?kf0
+!s100 ZhB5RlRQi0J0a>YBHQH<02
+R9
+32
+R10
+!i10b 1
+R19
+R93
+R94
+!i113 1
+R14
+R15
+Artl
+R4
+R5
+DEx4 work 15 single_port_ram 0 22 k52MEA[R8LFH_2D6zK`>m0
+!i122 0
+l21
+R72
+VTn?[8W<B82jLNjb_^fETX3
+!s100 Oill>3?e;1[MA`cmT5gTP2
+R9
+32
+!s110 1607976842
+!i10b 1
+!s108 1607976841.000000
+Z96 !s90 -reportprogress|300|ALU.vhd|adder.vhd|comparator.vhd|control_unit.vhd|data_memory.vhd|datapath.vhd|fsm_control.vhd|instruction_memory.vhd|instruction_register.vhd|mux16_1.vhd|mux_3x1.vhd|processor.vhd|program_counter.vhd|read_decoder.vhd|reg.vhd|rf_16x16.vhd|testbench.vhd|write_decoder.vhd|
+Z97 !s107 write_decoder.vhd|testbench.vhd|rf_16x16.vhd|reg.vhd|read_decoder.vhd|program_counter.vhd|processor.vhd|mux_3x1.vhd|mux16_1.vhd|instruction_register.vhd|instruction_memory.vhd|fsm_control.vhd|datapath.vhd|data_memory.vhd|control_unit.vhd|comparator.vhd|adder.vhd|ALU.vhd|
+!i113 1
+R15
+w1607973307
+R0
+Fdata_memory.vhd
+8data_memory.vhd
+Esingle_port_rom
+Z98 w1607999191
+R90
+R4
+R5
+!i122 43
+R6
+Z99 8C:/Workspace/Processador_6_instrucoes/instruction_memory.vhd
+Z100 FC:/Workspace/Processador_6_instrucoes/instruction_memory.vhd
+l0
+L5 1
+V7IC87GYLT_k=3cfVP3A[K3
+!s100 h4VDe8L4ob:aITU6o_5KC0
+R9
+32
+R40
+!i10b 1
+R41
+Z101 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Workspace/Processador_6_instrucoes/instruction_memory.vhd|
+Z102 !s107 C:/Workspace/Processador_6_instrucoes/instruction_memory.vhd|
+!i113 1
+R14
+R15
+Aarch
+R90
+R4
+R5
+DEx4 work 15 single_port_rom 0 22 7IC87GYLT_k=3cfVP3A[K3
+!i122 43
+l30
+R95
+VIXKDN][oj=fBzFGSK`?;81
+!s100 W_kIW]2YQcBm6cA@804Fj2
+R9
+32
+R40
+!i10b 1
+R41
+R101
+R102
+!i113 1
+R14
+R15
+Etestbench
+Z103 w1607992762
+R4
+R5
+!i122 52
+R6
+Z104 8C:/Workspace/Processador_6_instrucoes/testbench.vhd
+Z105 FC:/Workspace/Processador_6_instrucoes/testbench.vhd
+l0
+L4 1
+VYCZ1`H`S^ZbPT_KFJ=Zz[3
+!s100 9:jIo@@Yc5=oGBdFeoY^c0
+R9
+32
+R63
+!i10b 1
+R69
+Z106 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Workspace/Processador_6_instrucoes/testbench.vhd|
+Z107 !s107 C:/Workspace/Processador_6_instrucoes/testbench.vhd|
+!i113 1
+R14
+R15
+Atb
+R4
+R5
+DEx4 work 9 testbench 0 22 YCZ1`H`S^ZbPT_KFJ=Zz[3
+!i122 52
+l21
+L8 20
+V`2eO8oa3UHHbBj8Y<?Hf@0
+!s100 EP[40:hChLn4c8L7jT5Ik0
+R9
+32
+R63
+!i10b 1
+R69
+R106
+R107
+!i113 1
+R14
+R15
+Ewrite_decoder
+Z108 w1607882855
+R4
+R5
+!i122 53
+R6
+Z109 8C:/Workspace/Processador_6_instrucoes/write_decoder.vhd
+Z110 FC:/Workspace/Processador_6_instrucoes/write_decoder.vhd
+l0
+L4 1
+VcoWLO[3fUZo57UL1c?]j30
+!s100 z1mGS>94^k1`5e:P5Tz:[1
+R9
+32
+Z111 !s110 1608033087
+!i10b 1
+Z112 !s108 1608033087.000000
+Z113 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Workspace/Processador_6_instrucoes/write_decoder.vhd|
+!s107 C:/Workspace/Processador_6_instrucoes/write_decoder.vhd|
+!i113 1
+R14
+R15
+Awd
+R4
+R5
+DEx4 work 13 write_decoder 0 22 coWLO[3fUZo57UL1c?]j30
+!i122 53
+l11
+R78
+V`hK6^F`[<N98kmJijIi0B3
+Z114 !s100 <?zoL5PNN7;BF0GGaKoDE2
+R9
+32
+R111
+!i10b 1
+R112
+R113
+Z115 !s107 C:/Workspace/Processador_6_instrucoes/write_decoder.vhd|
+!i113 1
+R14
+R15

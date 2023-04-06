@@ -1,0 +1,136 @@
+vcom *.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:51:19 on Dec 15,2020
+# vcom -reportprogress 300 ALU.vhd adder.vhd comparator.vhd control_unit.vhd data_memory.vhd datapath.vhd fsm_control.vhd instruction_memory.vhd instruction_register.vhd mux16_1.vhd mux_3x1.vhd processor.vhd program_counter.vhd read_decoder.vhd reg.vhd rf_16x16.vhd testbench.vhd write_decoder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity alu
+# -- Compiling architecture ula of alu
+# -- Compiling entity adder
+# -- Compiling architecture soma of adder
+# -- Compiling entity comparator
+# -- Compiling architecture comp of comparator
+# -- Compiling entity control_unit
+# -- Compiling architecture control of control_unit
+# -- Loading package NUMERIC_STD
+# -- Compiling entity single_port_ram
+# -- Compiling architecture ram of single_port_ram
+# -- Compiling entity datapath
+# -- Compiling architecture arch_1 of datapath
+# -- Compiling entity fsm_control
+# -- Compiling architecture fsm of fsm_control
+# -- Compiling entity single_port_rom
+# -- Compiling architecture arch of single_port_rom
+# -- Compiling entity instruction_register
+# -- Compiling architecture ir of instruction_register
+# -- Compiling entity mux16_1
+# -- Compiling architecture mux2 of mux16_1
+# -- Compiling entity mux3_1
+# -- Compiling architecture mux of mux3_1
+# -- Compiling entity processor
+# -- Compiling architecture arch of processor
+# -- Compiling entity program_counter
+# -- Compiling architecture arch_1 of program_counter
+# -- Compiling entity read_decoder
+# -- Compiling architecture rd of read_decoder
+# -- Compiling entity reg
+# -- Compiling architecture registrador of reg
+# -- Compiling entity rf_16x16
+# -- Compiling architecture rf of rf_16x16
+# -- Compiling entity testbench
+# -- Compiling architecture tb of testbench
+# ** Warning: testbench.vhd(19): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# -- Compiling entity write_decoder
+# -- Compiling architecture wd of write_decoder
+# End time: 08:51:19 on Dec 15,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# Compile of adder.vhd was successful.
+# Compile of ALU.vhd was successful.
+# Compile of comparator.vhd was successful.
+# Compile of control_unit.vhd was successful.
+# Compile of data_memory.vhd was successful.
+# Compile of datapath.vhd was successful.
+# Compile of fsm_control.vhd was successful.
+# Compile of instruction_memory.vhd was successful.
+# Compile of instruction_register.vhd was successful.
+# Compile of mux_3x1.vhd was successful.
+# Compile of mux16_1.vhd was successful.
+# Compile of processor.vhd was successful.
+# Compile of program_counter.vhd was successful.
+# Compile of read_decoder.vhd was successful.
+# Compile of reg.vhd was successful.
+# Compile of rf_16x16.vhd was successful.
+# Compile of testbench.vhd was successful with warnings.
+# Compile of write_decoder.vhd was successful.
+# 18 compiles, 0 failed with no errors.
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 08:51:45 on Dec 15,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.testbench(tb)
+# Loading ieee.std_logic_arith(body)
+# Loading work.processor(arch)
+# Loading work.datapath(arch_1)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.mux3_1(mux)
+# Loading work.rf_16x16(rf)
+# Loading work.write_decoder(wd)
+# Loading work.read_decoder(rd)
+# Loading work.reg(registrador)
+# Loading work.mux16_1(mux2)
+# Loading work.alu(ula)
+# Loading work.comparator(comp)
+# Loading work.control_unit(control)
+# Loading work.instruction_register(ir)
+# Loading work.fsm_control(fsm)
+# Loading work.program_counter(arch_1)
+# Loading work.adder(soma)
+# Loading ieee.numeric_std(body)
+# Loading work.single_port_ram(ram)
+# Loading work.single_port_rom(arch)
+add wave -position insertpoint sim:/testbench/u_0/u_1/fsm/*
+add wave -position insertpoint sim:/testbench/u_0/u_2/*
+add wave -position insertpoint sim:/testbench/u_0/u_3/*
+# Load canceled
+run 2000 ns
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/u_0/u_1/ad
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/u_0/u_1/ad
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /testbench/u_0/u_1/ad
+# ** Fatal: (vsim-3734) Index value 10 is out of range 0 to 9.
+#    Time: 315 ns  Iteration: 2  Process: /testbench/u_0/u_3/line__31 File: C:/Workspace/Processador_6_instrucoes/instruction_memory.vhd
+# Fatal error in Process line__31 at C:/Workspace/Processador_6_instrucoes/instruction_memory.vhd line 34
+# 
+# HDL call sequence:
+# Stopped at C:/Workspace/Processador_6_instrucoes/instruction_memory.vhd 34 Process line__31
+# 
+# Unrecognized paper size (Letter), using Custom
+# Unrecognized paper size (Letter), using Custom
+add wave -position insertpoint sim:/testbench/u_0/u_0/u_1/reg_0/*
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run 2000 ns
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/u_0/u_1/ad
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/u_0/u_1/ad
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /testbench/u_0/u_1/ad
+# ** Fatal: (vsim-3734) Index value 10 is out of range 0 to 9.
+#    Time: 315 ns  Iteration: 2  Process: /testbench/u_0/u_3/line__31 File: C:/Workspace/Processador_6_instrucoes/instruction_memory.vhd
+# Fatal error in Process line__31 at C:/Workspace/Processador_6_instrucoes/instruction_memory.vhd line 34
+# 
+# HDL call sequence:
+# Stopped at C:/Workspace/Processador_6_instrucoes/instruction_memory.vhd 34 Process line__31
+# 
+# Unrecognized paper size (Letter), using Custom
+# Unrecognized paper size (Letter), using Custom
+# End time: 12:35:29 on Dec 15,2020, Elapsed time: 3:43:44
+# Errors: 3, Warnings: 4

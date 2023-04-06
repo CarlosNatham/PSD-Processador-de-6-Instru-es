@@ -1,0 +1,16 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity read_decoder is
+port(	i_ADDR:	in std_logic_vector (3 downto 0);	
+		i_RD:		in std_logic;
+		o_S: 		out std_logic_vector (15 downto 0));
+end read_decoder;
+
+architecture rd of read_decoder is
+begin
+	process()
+		begin
+			
+	end process;
+end rd;

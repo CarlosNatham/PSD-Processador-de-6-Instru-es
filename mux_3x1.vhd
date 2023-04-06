@@ -1,0 +1,28 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+
+entity mux3_1 is
+port ( i_S0: 	in std_logic;	
+		 i_S1: 	in std_logic;
+       i_2: 	in std_logic_vector (7 downto 0);
+		 i_1:		in std_logic_vector (15 downto 0);
+		 i_0:		in std_logic_vector (15 downto 0);
+       o_S: 	out std_logic_vector (15 downto 0));
+end mux3_1;
+
+architecture mux of mux3_1 is 
+begin 
+	process(i_S0, i_S1, i_2, i_1, i_0)
+      begin 
+    	if(i_S0 = '0' and i_S1 = '0') then 
+         o_S <= i_0;
+      elsif(i_S0 = '1' and i_S1 = '0') then
+         o_S <= i_1;
+		elsif(i_S0 = '0' and i_S1 = '1') then
+			o_S <= "00000000" & i_2;
+		else
+			o_S <= "0000000000000000";
+      end if;
+    end process;
+end mux;

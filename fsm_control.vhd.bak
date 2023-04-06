@@ -1,0 +1,50 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity fsm_control is
+port(	i_RF_RP_ZERO:  in std_logic;
+		i_IR_ID:			in std_logic_vector (15 downto 0);
+		i_CLK:			in std_logic;
+		i_CLR:			in std_logic;
+		o_RF_W_ADDR:	out std_logic_vector (3 downto 0);
+		o_RF_W_WR:		out std_logic;
+		o_RF_RP_ADDR:	out std_logic_vector (3 downto 0);
+		o_RF_RP_RD:		out std_logic;
+		o_RQ_ADDR:		out std_logic_vector (3 downto 0);
+		o_RF_RQ_RD:		out std_logic;
+		o_D_ADDR:		out std_logic_vector (7 downto 0);
+		o_D_RD:			out std_logic;
+		o_D_WR:			out std_logic;
+		o_RF_W_DATA:	out std_logic_vector (7 downto 0);
+		o_RF_S1:			out std_logic;
+		o_RF_S2:			out std_logic;
+		o_ALU_S0:		out std_logic;
+		o_ALU_S1:		out std_logic;
+		o_IR_ID:			out std_logic;
+		o_I_RD:			out std_logic;
+		o_PC_INC:		out std_logic;
+		o_PC_CLR:		out std_logic;
+		o_PC_ID:			out std_logic;
+end fsm_control;
+
+architecture arch_1 of fsm_control is
+
+	type state_type is (inicio, busca, decod, carregar, armazenar, somar, car_constante, subtrair, saltar_se_zero, saltar);
+ 	signal r_STATE_REG  : state_type;
+	signal s_NEXT_STATE : state_type;
+	
+	begin
+	p_STATE_REG : process(i_CLK, i_CLR)
+    	begin
+        	if(i_CLR = '0') then
+            	r_STATE_REG <= inicio; 
+         elsif (rising_edge(i_CLK)) then
+             	r_STATE_REG <= s_NEXT_STATE;
+         end if;
+         end process;
+			
+	 p_NEXT_STAGE : process (r_state_REG, i_GENT)
+    	begin
+        	
+
+
